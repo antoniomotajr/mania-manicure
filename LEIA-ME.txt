@@ -1,0 +1,24 @@
+PAINEL LOCAL — MANIA DE MANICURE
+
+1. Extraia todo o ZIP para uma pasta no computador.
+2. Abra admin.html no Chrome ou Edge. Não precisa instalar servidor, Python, PHP ou banco de dados.
+3. Edite as abas Perfil, Textos, Serviços, Imagens, Vídeos, Depoimentos e Cores.
+4. Clique em Atualizar prévia. Alterne entre Computador e Celular.
+5. Use Abrir site para testar para conferir as interações fora da prévia.
+6. Salvar neste navegador guarda um rascunho local (IndexedDB). Não publica na internet. Limpar dados do navegador, trocar de navegador ou mover a pasta pode impedir o acesso ao rascunho.
+7. Baixar backup guarda conteúdo e mídias em JSON. Use Restaurar backup para retomar em outro computador. Importe apenas backups de sua confiança.
+8. Exportar ZIP do site gera mania-site.zip com index.html. Extraia e envie esse index.html à hospedagem estática. Também é possível baixar index.html diretamente.
+
+ARQUIVOS
+admin.html: painel privado local.
+admin.js: funcionamento do painel.
+base.js: conteúdo inicial com as mídias incorporadas.
+index.html: versão inicial do site, pronta para publicar; atualizações saem na pasta Downloads quando você exporta.
+
+PUBLIQUE SOMENTE O INDEX.HTML EXPORTADO. Não envie admin.html, admin.js, base.js ou backups à hospedagem.
+
+O formulário encaminha pedidos pelo WhatsApp; não consulta disponibilidade automaticamente. Serviços selecionáveis são sincronizados com o menu ao exportar. O painel não envia mensagens nem publica avaliações automaticamente. Substitua exemplos de depoimentos por relatos autorizados; preencha os valores e o endereço antes da publicação.
+
+Os vídeos e imagens ficam dentro do HTML. Isso facilita a hospedagem, mas aumenta o tamanho do arquivo. Confira o limite de upload do seu provedor. O site inicial tem aproximadamente 20 MB. Compartilhamento de links e atalho do celular exigem o endereço publicado.
+
+O painel não tem senha porque é destinado exclusivamente ao uso local. Faça backup frequente. Na prévia, scripts ficam desativados; para testar botões use Abrir site para testar.
